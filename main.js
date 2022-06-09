@@ -29,7 +29,7 @@ const repeatBtn = $('.btn-repeat')
 const app = {
     currentIndex: 0,
     isPlaying: false,
-    isRandom: false,
+    isRandom: true,
     isRepeat: false,
     config: JSON.parse(localStorage.getItem(PLAYER_STORAGE_KEY)) || {},
     songs: [
