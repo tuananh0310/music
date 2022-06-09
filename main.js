@@ -34,6 +34,12 @@ const app = {
     config: JSON.parse(localStorage.getItem(PLAYER_STORAGE_KEY)) || {},
     songs: [
         {
+            name: 'I Like You (A Happier Song)',
+            singer: 'Post Malone, Doja Cat',
+            path: './assets/mp3/song6.mp3',
+            image: './assets/image/song6.jpg',
+        },
+        {
             name: 'Peter Pan Was Right',
             singer: 'Anson Seabra',
             path: './assets/mp3/song1.mp3',
@@ -63,6 +69,7 @@ const app = {
             path: './assets/mp3/song5.mp3',
             image: './assets/image/song5.jpg',
         },
+         
     ],
     setConfig: function(key, value) {
         this.config[key] = value
