@@ -69,6 +69,12 @@ const app = {
             path: './assets/mp3/song5.mp3',
             image: './assets/image/song5.jpg',
         },
+         {
+            name: 'Pink Venom',
+            singer: 'Black Pink',
+            path: './assets/mp3/song7.mp3',
+            image: './assets/image/3F57912D-735F-47A7-BB98-D8D5D2C6AA2B.jpg',
+        },
          
     ],
     setConfig: function(key, value) {
